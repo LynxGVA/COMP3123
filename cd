@@ -1,0 +1,5 @@
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+      705       1     705      41816  cons1     197609 18:05:32 /usr/bin/bash
+      538       1     538      38492  cons0     197609 17:53:11 /usr/bin/bash
+      754     705     754      45368  cons1     197609 18:05:34 /usr/bin/PS
+      704     538     704      43508  cons0     197609 18:01:36 /usr/bin/winpty
