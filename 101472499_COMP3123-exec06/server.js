@@ -1,5 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+const cors = require('cors');
+
+dotenv.config();
 
 const DB_URL = process.env.DB_URL || "mongodb+srv://generalgva_db_user:nnKTh7mVty80kBYs@viktordatabase.mtcvpgk.mongodb.net/notesdb";
 const PORT = process.env.PORT || 8081;
